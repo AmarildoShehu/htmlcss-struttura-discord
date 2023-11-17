@@ -1,9 +1,5 @@
 /*Reset*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /*generics*/
 body{
@@ -15,3 +11,44 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header{
+    margin: auto;
+    min-height: 50px;
+    width: 80%;
+    background-color: rgb(115, 240, 245);
+    margin-bottom: 15px;  
+    display: flex;
+
+}
+.flex-conteiner{
+    margin: auto;
+    width: 80%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: orange;
+}
+/*
+.flex-conteiner{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    min-height: 50px;
+    background-color: rgb(42, 44, 51);
+}
+.left-column{
+    flex-basis: 6%;
+    min-height: 100px;
+    background-color: lightblue;
+}
+.right-column{
+    flex-basis: 40%;
+    min-height: 100px;
+    background-color: lightpink;
+}
+*/
