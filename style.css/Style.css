@@ -35,9 +35,21 @@ header{
 }
 
 .first-main{
-    height: 100px;
+    height: 300px;
+    width: 100%;
     background-color: blue;
+    display: flex;
 }
+
+.block{
+    margin: auto;
+    height: 200px;
+    width: 800px;
+    border:1px dashed black;
+    background-color: rgb(248, 70, 100);
+}
+    
+    
 /*
 .flex-conteiner{
     display: flex;
