@@ -22,7 +22,7 @@ header{
     display: flex;
 
 }
-.flex-container{
+.header-container{
     margin: auto;
     height: 40px;
     width: 80%;
@@ -109,6 +109,33 @@ header{
     height: 270px;
     border:1px dashed white;
     display: flex;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: darkslategrey;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid grey;
+}
+.footer-container{
+    height: 40px;
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange; 
+}
+.logo{
+    width: 40px;
+    border: 1px dashed black;
+    background-color: palevioletred;
+}
+.bottone{
+    width: 60px;
+    border: 1px dashed black;
+    background-color: palevioletred;
 }
 /*
 .flex-conteiner{
